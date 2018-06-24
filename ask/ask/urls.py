@@ -22,6 +22,7 @@ from ask.views import found, not_found
 urlpatterns = [
     url(r'^$', found),
     url(r'^login', found),
+    url(r'^signup', found),
     url(r'^question', include('qa.urls')),
     url(r'^ask', found),
     url(r'^popular', found),
